@@ -1,0 +1,528 @@
+
+/*================
+  Global CSS
+==================*/
+*{
+    margin: 0;
+    padding:0;
+
+}
+a {
+    text-decoration: none;
+    color: 
+    black;
+}
+.container{
+    width: 1140px;
+    margin:0 auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style:none;
+}
+
+/*===================
+Header Top Area Start
+====================*/
+.header-area {
+	height: 92px;
+    width: 100%;
+   
+}
+    /*Header-One*/
+    .header-one{
+        width: 10%;
+        float: left;
+        text-align: left;
+    }
+    .logo img {
+    width: 111px;
+    display: inline-block;
+    height: 78px;
+    margin: 7px 32px;
+    }
+ 
+    .main-menu ul {
+        list-style: none;
+    }
+    .main-menu ul li {
+        display: inline-block;
+        margin-left: 35px;
+        padding: 35px 0;
+        line-height: 24px;
+    }
+    .main-menu ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+    }
+
+     /*Header-One*/
+    .header-two{
+        width: 65%;
+        float: left;
+        text-align: center;
+    }
+
+     /*Header-One*/
+     .header-three {
+        width: 25%;
+        float: right;
+        text-align: end;
+    }
+    .social-right-icon {
+        margin-top: 34px;
+    }
+    .social-right-icon a {
+        margin-left: 10px;
+        font-size: 16px;
+        
+    }
+    .fa.fa-facebook-official {
+        background-color: #4267B2;
+        padding: 5px;
+        color: #ffffff;
+    }
+    .fa.fa-twitter {
+        background-color: #1DA1F2;
+        padding: 5px;
+        color: #ffffff;
+    }
+    .fa.fa-linkedin {
+        background-color: #0077B5;
+        padding: 5px;
+        color: #ffffff;
+    }
+    .fa.fa-google-plus {
+        background: #D01617;
+        padding: 5px;
+        color: #ffffff;
+    }
+    
+/*=================
+Header Top Area End 
+==================*/
+
+/*=================
+Banner Area Start
+==================*/
+    .single-banner {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 550px;
+    }
+    .banner-content {
+    width: 40%;
+    float: left;
+    border: 1px solid 
+    #ddd;
+    padding-top: 100px;
+    padding-bottom: 127px;
+    margin-top: 77px;
+    margin-left: 23px;
+    border-radius: px;
+    background:
+    #786c6c;
+    opacity: 0.7;
+}
+    .banner-content h1 {
+    font-size: 50px;
+    text-align: center;
+    color: 
+    #000;
+    text-transform: uppercase;
+}
+    .banner-content p {
+        text-align: center;
+        padding-top: 9px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        color: #fff;
+    }
+    .banner-btn {
+        text-align: center;
+        margin-top: 16px;
+    }
+    .banner-btn ul li{ 
+        display: inline-block;
+    }
+   .banner-btn li:hover > a {
+    color: 
+#222;
+opacity: 1.5;
+background:
+    #FFAD11;
+    transition: .4s ease;
+}
+    .banner-btn ul li a {
+    background: 
+#2bff38;
+margin-left: 49px;
+color:
+    #222;
+    font-weight: 700;
+    padding: 7px;
+}
+/*=================
+Banner Area End
+==================*/
+
+/*=================
+About Area Start
+==================*/
+    .about-us-area{
+        margin-top: 40px;
+        width: 100%;
+        margin: 80px auto;
+        overflow: hidden;
+     
+    }
+    .about-one {
+
+    width: 24%;
+    float: left;
+    border: 0px solid 
+
+    #ddd;
+    margin-right: 9px;
+    padding: 0px 2px;
+
+}
+    .about-one:last-child{
+        margin-right: 0px;
+    }
+    .about-logo {
+        margin-left: 106px;
+        margin-top: 20px;
+    }
+    .about-logo a {
+        text-align: center;
+        display: inline-block;
+        color: #fff;
+        font-size: 34px;
+        border-radius: 42px;
+        line-height: 66px;
+    }
+    .about-content {
+        padding-bottom: 30px;
+    }
+    .about-content h4 {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    .about-content p {
+
+    padding-top: 22px;
+    padding-bottom: 21px;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: justify;
+    font-size: 15px;
+
+}
+    .about-content .btn {
+        text-align: center;
+        display: inline-block;
+        background: #97E16A;
+        padding: 10px;
+        color: #fff;
+        font-weight: 700;
+        margin-left: 92px;
+    }
+    .about-content .btn:hover {
+        background-color: #222;
+        transition: .4s ease;
+    }
+    .about-logo.logo-color-1 {
+        background-color: #6879D2;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        text-align: center;
+    }
+    .about-logo.logo-color-2 {
+        background-color:#019586;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        text-align: center;
+    }
+    .about-logo.logo-color-3 {
+        background-color:#4CB050;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        text-align: center;
+    }
+    .about-logo.logo-color-4 {
+        background-color:#94E269;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        text-align: center;
+    }
+
+/*==========================
+invest-area
+============================*/
+
+    .invest-area {
+       margin-top: 50px;
+        margin-bottom: 50px;
+        overflow: hidden;
+    }
+    .invest-one{
+        width:38%;
+        float: left;
+        margin-right: 30px;
+    }
+    .invest-one {
+        padding: 50px;
+        background-color: #B8CCD5;
+    }
+    .invest-head h2 {
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .invest-pgfr ul li {
+        padding-bottom: 13px;
+        padding-top: 17px;
+    }
+    .invest-pgfr ul li a {
+        color: #222;
+        padding-bottom: 5px;
+    }
+    .invest-btn .btn {
+        background-color: #94E269;
+        padding: 8px;
+        margin-top: 11px;
+        display: inline-block;
+        color: #fff;
+        border-radius: 4px;
+    }
+    .invest-btn:hover>.btn {
+        background-color: black;
+        color: #fff;
+        transition: .4s ease;   
+    }
+    .invest-two{
+        width:38%;
+        float: left;
+        margin-left: 30px;
+    }
+    .invest-two {
+        padding: 50px;
+        background-color: #B8CCD5;
+    }
+    .fa.fa-stop-circle-o {
+        color: #61AD5A;
+    }
+
+
+    /*Blog Area Start*/
+    .blog-area {
+        margin-top: 50px;
+         margin-bottom: 50px;
+         overflow: hidden;
+     }
+     .blog-one{
+         width:38%;
+         float: left;
+         margin-right: 30px;
+     }
+     .blog-one {
+         padding: 50px;
+         background-color: #fff;
+     }
+
+
+
+    .blog-two{
+        width:38%;
+        float: left;
+        margin-left: 30px;
+    }
+    .blog-two {
+        padding: 50px;
+    }
+    .blog-area h2 {
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        color: #07506B;
+    }
+    .blog-area h4 {
+        color: #07506B;
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .blgo-paragraph-2 {
+        padding-top: 30px;
+    }
+
+
+    /*Lent Area Start*/
+    .lent-area {
+        background-color: #DCDCDC;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+    }
+    .lent-one ul li {
+        text-align: center;
+        padding-top: 10px;
+    }
+   .lent-one ul li a {
+
+    font-weight: 700;
+    color: 
+
+    #021264;
+    font-size: 17px;
+    font-family: verdana;
+
+}
+    /*Lent Area Start*/
+
+    /*Fixed Bar Start*/
+    .leave-content a {
+
+    background-color: 
+
+#7f7f92;
+
+color:
+
+    #fff;
+    padding: 11px;
+    float: right;
+
+}
+    .leave-content {
+        
+        top: 65%;
+        right: 0;
+        width:100%;
+    }
+
+    /*Fixes Bar End*/
+
+    /*Tool Trip Area Start*/
+    .tooltrip-area {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+   .tool-trip-image a {
+
+    color78C323: ;
+    background-color: 
+
+#6CA724;
+
+color:
+
+    #fff;
+    padding: 11px;
+        padding-top: 11px;
+        padding-right: 11px;
+        padding-bottom: 11px;
+        padding-left: 11px;
+    font-size: 18px;
+    margin-top: 4px;
+    margin: 5px;
+
+}
+    .tool-trip-image {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .fa.fa-star {
+        color: #03B476;
+        font-size: 33px;
+       
+      }
+      .tool-trip-bottom h5 {
+        display: inline-block;
+        font-weight: 400;
+      }
+      
+      .tool-trip-bottom p {
+        display: inline-block;
+        font-size: 13px;
+        margin-left: 5px;
+    }
+      .tool-trip-bottom {
+        position: relative;
+      }
+      .tool-trip-bottom span {
+        position: absolute;
+        content: "";
+        background: red;
+        width: 2px;
+        height: 11px;
+        top: 5px;
+    }
+    .tool-trip-image .black-white {
+        background-color: #9B9C97;
+        color: #fff;
+    }
+
+    /*Tool Trip Area End*/
+
+
+/*Mention Area Start*/
+    .mention-area {
+        background-color: #808080;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        overflow: hidden;
+        margin: 0 auto;
+        }
+    .mention-area h4 {
+        text-align: center;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 400;
+        }
+    .mention-one{
+        width: 19%;
+        display: inline-block;
+        }
+    .mention-detail h2 {
+        font-size: 29px;
+        text-transform: uppercase;
+        color: #fff;
+        padding-top: 41px;
+        line-height: 26px;
+        }
+    .mention-detail p {
+        color: #202020;
+        padding-top: 23px;
+        font-size: 22px;
+        }
+/*Mention Area Start*/
+
+.footer-area {
+	background-color: #031A21;
+}
+.footer-content {
+	color: #fff;
+	padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .footer-one {
+        width: 45%;
+        display: inline-block;
+        text-align: center;
+    }
